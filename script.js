@@ -5,7 +5,7 @@ const btn=document.getElementById("btn");
 const output=document.getElementById("output");
 
 function delay(ms){
-	return new promise((reslove)=> setTimeout(resolve,ms));
+	return new Promise((reslove)=> setTimeout(resolve,ms));
 }
 btn.addEventListener("click",async function(){
 	const text=inputText.value;
